@@ -13,6 +13,7 @@ public class Lab1Perimeter {
 			//declare variables
 			double length;
 			double width;
+			double height;
 			
 			String choice;
 			choice = "y";
@@ -28,10 +29,13 @@ public class Lab1Perimeter {
 			length = k.nextDouble();
 			System.out.print("Enter Width:  ");
 			width = k.nextDouble();
+			System.out.print("Enter Height:  ");
+			height = k.nextDouble();
 			
 			//calculate and output area and perimeter
 			System.out.println("Area:  " + (length * width));
 			System.out.println("Perimeter:  " + (2 * width + 2 * length));	
+			System.out.println("Volumn:  " + length * width * height);
 			
 			//blank space and prompt for continue
 			System.out.println();
